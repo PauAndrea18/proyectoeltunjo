@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEDH El Tunjo</title>
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--Carrusel-->
+  <section id="carrusel">
+    <div class="contenedor">
+      <div class="texto-carousel">
+        <div class="contentBx">
+          <h2>Parque Ecológico Distrital <span><span id="texto-codigo"></span></span></h2>
+          <p></p>
+          <a href="#tarjetas"><span>Leer más</span></a>
+        </div>
+        <div style="width: 55%;">
+          <img src="imagenes/principal.jpg" height="100%" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Tarjetas-->
+  <section id="tarjetas">
+    <div class="titulo"> 
+      <h2>Contenido</h2>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>01</h2>
+            <h3>Proyecto PEDH El Tunjo</h3>
+            <div class="imagenes">
+              <img src="imagenes/proyecto.jpeg" alt="">
+            </div>
+            <a href="#segunda-seccion" onclick="toggle('proyecto')">Read More </a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>02</h2>
+            <h3>Aula ambiental</h3>
+            <div class="imagenes">
+              <img src="imagenes/novaserv.jpeg" alt="">
+            </div>
+            <a href="#segunda-seccion" onclick="toggle('aula-ambiental')">Read More </a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>03</h2>
+            <h3>Cerramiento e invernadero<br></h3>
+            <div class="imagenes">
+              <img src="imagenes/ecomsolution.jpeg" alt="">
+            </div>  
+            <a href="#segunda-seccion" onclick="toggle('cerramiento-invernadero')">Read More </a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>04</h2>
+            <h3>Plan de seguridad<br></h3>
+            <div class="imagenes">
+              <img src="imagenes/innovatech.jpeg" alt="">
+            </div>
+            <a href="#segunda-seccion" onclick="toggle('plan-seguridad')">Read More </a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>05</h2>
+            <h3>Generación de energía</h3>
+            <div class="imagenes">
+              <img src="imagenes/Bicicleta.jpeg" alt="">
+            </div>
+            <a href="#segunda-seccion" onclick="toggle('generacion-energia')">Read More </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Proyecto-->
+    <div id = "proyecto" class="ventana">
+      <div class="ventana-interna">
+        <img src="images/close-icon.svg" onclick="toggle('proyecto')" class="close" alt="">
+        <div class="ventana-contenido">
+          <h2>Proyecto PEDH El Tunjo</h2>
+          <video width="100%" height="auto" controls>
+            <source src="imagenes/video-proyecto.mp4" type="video/mp4">
+          </video>
+            <p>El Parque Ecológico del Humedal el Tunjo, se encuentra ubicado entre las localidades de 
+              Tunjuelito y Ciudad Bolívar, que limita por el oriente con la avenida Boyacá (carrera 25). 
+              El Tunjo está ubicado al sur de la ciudad de Bogotá cuenta con una altura promedio de 2.530 
+              m.s.n.m. y con una extensión de 33,21 Ha. Por infiltración y escorrentía este humedal se 
+              abastece principalmente de agua lluvia, el río Tunjuelo ingresa a los espejos de agua cuando 
+              el caudal supera el nivel de los jarillones. Este Parque se ha visto gravemente afectado por 
+              el tema de la inseguridad, la venta de estupefacientes, la prostitución y la contaminación al 
+              ecosistema, entre otros factores. Es por esto que, existe la necesidad de intervenir con el 
+              acompañamiento de Secretaria Distrital de Ambiente Bogotá en la supervisión y entrega de 
+              proyectos que generen interés de las personas en integrarse a los espacios naturales de la ciudad.
+            </p>
+            <div class="archivos">
+              <a href="https://drive.google.com/drive/folders/1icemtfXKP0sYDs9rAIjyVOZym2Xf05Ja?usp=drive_link">Documentos</a>
+              <a href="https://docs.google.com/spreadsheets/d/1_bNfMMGt6YbOMXd58N99Aqn7WepbJBsP/edit?usp=sharing&ouid=101226721951902852631&rtpof=true&sd=true">Presupuesto</a>
+            </div>
+            <a href="#segunda-seccion" onclick="toggle('proyecto')">Close</a>
+        </div>
+      </div>
+    </div>
+
+  <!--Aula ambiental-->
+    <div id = "aula-ambiental" class="ventana">
+      <div class="ventana-interna">
+        <img src="images/close-icon.svg" onclick="toggle('aula-ambiental')" class="close" alt="">
+        <div class="ventana-contenido">
+          <h2>Aula ambiental</h2>
+          <img src="imagenes/aula-ambiental.jpeg" alt="">
+          <p>El diseño del aula ambiental es innovador no solo por su diseño moderno, sino porque en su 
+            cimentación se encargaron de ser amigables con el humedal. Teniendo una cimentación de 1m, 
+            relleno de roca rajón y guadua que hacen la idea de las zapatas. En la estructura, sus muros 
+            estructurales y divisores son con la tecnología innovadora del Gualam. El aula ambiental va 
+            ser un espacio de recreación, de información y de entender la importancia de conservar los 
+            humedales.<br>
+          </p>
+          <div class="archivos">
+            <a href="https://drive.google.com/drive/folders/1xjDkPU9UH4DIxPGBlB2Pwbq8Vchd5KEa?usp=drive_link">Documentos</a>
+            <a href="https://docs.google.com/spreadsheets/d/1TBtlUTaJHKpB4L2qiiokZXPvhILEibj1/edit?usp=drive_link&ouid=101226721951902852631&rtpof=true&sd=true">Presupuesto</a>
+          </div>
+          <a href="#segunda-seccion" onclick="toggle('aula-ambiental')" >Close</a>
+        </div>
+      </div>
+    </div>
+      
+  <!--Cerramiento e invernadero-->
+    <div id = "cerramiento-invernadero" class="ventana">
+      <div class="ventana-interna">
+        <img src="images/close-icon.svg" onclick="toggle('cerramiento-invernadero')" class="close" alt="">
+        <div class="ventana-contenido">
+          <h2>Cerramiento e invernadero</h2>
+          <img src="imagenes/invernadero.jpeg" alt="">
+          <h3>Invernadero</h3>
+          <p>El invernadero será de policarbonato debido a que su tiempo de vida útil es de 20 a 25 años, que 
+            en comparación del polietileno tiene una vida útil de 5 a 8 años; por lo que es más factible el 
+            policarbonato. La cercha del invernadero será hecha en guadua preservada, limpia e inmunizada. Lo 
+            interesante del invernadero es que no necesita cimentación porque es desmontable, solo necesita 
+            una pequeña excavación que permita la estabilidad de la cercha en el suelo. Proporcionar el interés 
+            a las personas en cuidar las plantas, se podrá encontrar en el invernadero. Debido a que en este se 
+            encontrará un sistema de IoT Smart Greenhouse una nueva forma de agricultura cómoda y confiable. 
+            En donde el entorno de cultivo se controla automáticamente dentro del invernadero para cultivar.
+          </p>
+          <br><br>
+          <h3>Cerramiento</h3>
+          <p>
+            En el cerramiento se proporcionarán dos tipos: uno en malla Fortinet por el perímetro que colinda 
+            con Ciudad Bolívar y algunas secciones del barrio Tunjuelo, y el segundo tipo es una malla viva, 
+            con la planta que crece en el humedal llamada Eugenia; por todo el perímetro del barrio Tunjuelo. 
+            Esto es debido a que el cerramiento podrá cumplir con la necesidad de ambas comunidades en mitigar 
+            la inseguridad. Además, se instalarán dos portones abatibles que apoyarán el plan de seguridad.
+          </p>
+          <div class="archivos">
+            <a href="https://drive.google.com/drive/folders/1CI9DVZBwCZqHvRgPDXRLAUkk-5Gy6WPW?usp=drive_link">Documentos</a>
+            <a href="https://docs.google.com/spreadsheets/d/1TyGQ0WfaksxegD7CpfR_Oo5vDtNvWaRJ/edit?usp=sharing&ouid=101226721951902852631&rtpof=true&sd=true">Presupuesto</a>
+          </div>
+          <a href="#segunda-seccion" onclick="toggle('cerramiento-invernadero')" >Close</a>
+        </div>
+      </div>
+    </div>
+
+  <!--Plan de seguridad-->
+    <div id = "plan-seguridad" class="ventana">
+      <div class="ventana-interna">
+        <img src="images/close-icon.svg" onclick="toggle('plan-seguridad')" class="close" alt="">
+        <div class="ventana-contenido">
+          <h2>Plan de seguridad</h2>
+          <img src="imagenes/plan-seguridad.jpeg" alt="">
+          <p>El plan de seguridad involucra personal de vigilancia privada para la supervisión del humedal las 
+            24 horas del día, que van a realizar cada cierto tiempo recorridos verificando la seguridad del 
+            ecosistema y de las personas que se encuentren allí. Además, se tendrán sistemas de control de 
+            entrada y salida de las personas que ingresarán al humedal, incluyendo reconocimiento facial y 
+            contadores. Todo esto con el fin, de tener un registro diario de cantidad de personas que ingresan 
+            y evitar que alguna de ellas se quede dentro en el momento que se suspende el tránsito (16:00). 
+            También, se maneja un sistema de sensores en el cerramiento del humedal para evitar los ingresos 
+            no autorizados, y en caso de que ocurran: poder conocer su ubicación para la revisión especifica 
+            por parte de las personas encargadas de la vigilancia. Las casetas de seguridad, tendrán un diseño 
+            estructural con la innovación del Gualam; así como su cimentación es de 1m, estará rellena de roca 
+            rajón y guadua que hacen la idea de las zapatas.
+          </p>
+          <div class="archivos">
+            <a href="https://drive.google.com/drive/folders/1HBCy7TW5CTrd1q18vn-gUMZmr9it1a5J?usp=drive_link">Documentos</a>
+            <a href="https://docs.google.com/spreadsheets/d/1KDL5y--kP--qnB0FCdsYPifOoV0ijH3v/edit?usp=drive_link&ouid=101226721951902852631&rtpof=true&sd=true">Presupuesto</a>
+          </div>
+          <a href="#segunda-seccion" onclick="toggle('plan-seguridad')">Close</a>
+        </div>
+      </div>
+    </div>
+
+  <!--Generación de energía-->
+    <div id = "generacion-energia" class="ventana">
+      <div class="ventana-interna">
+        <img src="images/close-icon.svg" onclick="toggle('generacion-energia')" class="close" alt="">
+        <div class="ventana-contenido">
+          <h2>Generación de energía</h2>
+          <img src="imagenes/desc-bicicletas.jpeg" alt="">
+          <p>
+            Les presentamos las bicicletas estáticas del Humedal el Tunjo, en ellas está la diversión de la 
+            visita de la población. Y es que los visitantes podrán aportar su grano de arena en el proyecto 
+            generando electricidad por medio de pedalear. Esto se debe a que, para producir energía eléctrica 
+            con la energía mecánica que hacen las personas al pedalear, se aplica una fuerza que hace girar la 
+            rueda por medio de una polea o una cadena que transmite el movimiento a la dinamo; esta será la 
+            encargada de ayudar a producir energía. La dinamo, va conectada a la batería donde será almacenada 
+            la energía. Existirá un tablero de visualización y de control que ayudará a que el usuario tenga 
+            conocimiento de la cantidad de energía que está produciendo.
+          </p>
+          <div class="prototipo">
+            <img src="imagenes/generacion-energia.jpeg" alt="">
+            <img src="imagenes/desc-generacion-energia.jpeg" alt="">
+          </div>
+          <div class="archivos">
+            <a href="https://drive.google.com/drive/folders/1QCu-pzrwG6P_4sODkLAHCI3BTNlcFEAY?usp=drive_link">Plano</a>
+          </div>
+          <a href="#segunda-seccion" onclick="toggle('generacion-energia')">Close</a>
+        </div>
+      </div>
+    </div>
+
+  <!--Footer-->
+    <footer>
+      <div class="waves" id="footer">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <div class="container">
+        <div id="autores" class="txtFooter">
+          <h4>Empresas encargadas</h4>
+          <li>Ecomsolution</li>
+          <li>InnovaTech Ingeniería</li>
+          <li>NovaServ</li>
+        </div>
+        <div id="logo" class="centro">
+          <div class="imgLogo">
+            <img src="imagenes/upc.png" alt="">
+          </div>
+          <li><b><i>Facultad de Ingeniería</i></b></li>
+        </div>
+        <div id="materia" class="txtFooter">
+          <li><br>Formulación de proyectos</li>
+          <li><br>Ing. Jimena del Pilar Espeleta Diaz</li>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 
+            <script>
+              document.write(new Date().getFullYear());
+            </script>.&nbsp;
+          </p>
+            <p>All rights reserved. Powered by the <b>PEDH El Tunjo </b></p>      
+        </div>
+      </div>
+    </footer>
+  
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+      let typingText = new Typed("#texto-codigo",{
+      strings : ["Humedal El Tunjo."],
+      loop : true,
+      /*showCursor: false,*/
+      typeSpeed : 100,
+      backSpeed : 100,
+      backDelay : 400,
+      })
+    </script>
+</body>
+</html>
